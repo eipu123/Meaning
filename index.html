@@ -102,46 +102,16 @@
             padding-bottom: 8px;
         }
 
-        /* Verb Forms Button */
-        .btn-verb-main {
-            background: linear-gradient(145deg, #9b59b6, #8e44ad);
-            font-size: 1.3rem;
-            padding: 16px 30px;
-            margin: 20px auto;
-            width: 100%;
-            max-width: 350px;
-            display: block;
-            color: white;
-            border: none;
-            border-radius: 50px;
-            font-weight: 600;
-            letter-spacing: 0.3px;
-            cursor: pointer;
-            box-shadow: var(--shadow-sm);
-            transition: var(--transition);
-            position: relative;
-            overflow: hidden;
-            -webkit-tap-highlight-color: transparent;
-        }
-        .btn-verb-main:hover {
-            transform: translateY(-2px) scale(1.02);
-            box-shadow: var(--shadow-lg);
-            background: linear-gradient(145deg, #8e44ad, #6c3483);
-        }
-        .btn-verb-main:active {
-            transform: translateY(1px);
-        }
-
         /* Back button */
         .btn-back {
             background: linear-gradient(145deg, #ff4444, #aa0000);
             color: white;
-            padding: 14px 20px;
+            padding: 14px 30px;
             margin: 5px;
             border: none;
             border-radius: 50px;
             font-weight: 600;
-            font-size: 1rem;
+            font-size: 1.1rem;
             cursor: pointer;
             box-shadow: var(--shadow-sm);
             transition: var(--transition);
@@ -253,12 +223,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>📝 Verb Forms • V1 V2 V3 Ving</h1>
-
-        <!-- Main Menu Button -->
-        <div style="text-align: center;">
-            <button class="btn-verb-main" onclick="showVerbForms()">📝 View All Verb Forms</button>
-        </div>
+        <h1>         📝 Verb Forms  •  V1 - V2 - V3 Ving</h1>
 
         <!-- Content Area -->
         <div id="contentArea"></div>
@@ -271,78 +236,78 @@
         // ---------- Verb Forms Data ----------
         const verbFormsData = {
             verbForms: {
-                title: "📝 Verb Forms (V1, V2, V3, Ving)",
+                title: "",
                 content: `
                     <div class="verb-forms-container">
                         <!-- V1 Section -->
                         <div class="verb-form-card">
-                            <h3>📸 V1 - Base Form (ပစ္စုပ္ပန်)</h3>
+                            <h3>📸 V1 </h3>
                             <div class="verb-images">
                                 <img src="https://i.ibb.co/5gTYffvL/IMG-20260308-200218.jpg" alt="Verb Form V1 - Base Form 1" onerror="this.onerror=null; this.src='https://via.placeholder.com/600x400?text=V1+Image+1';">
-                                <div class="image-caption">Base Form - Example 1</div>
+                                <div class="image-caption"> Example 1</div>
                                 
                                 <img src="https://i.ibb.co/kVtQRJ1n/IMG-20260309-004201.jpg" alt="Verb Form V1 - Base Form 2" onerror="this.onerror=null; this.src='https://via.placeholder.com/600x400?text=V1+Image+2';">
-                                <div class="image-caption">Base Form - Example 2</div>
+                                <div class="image-caption"> Example 2</div>
                                 
                                 <img src="https://i.ibb.co/fdXbNgWV/IMG-20260309-004452.jpg" alt="Verb Form V1 - Base Form 3" onerror="this.onerror=null; this.src='https://via.placeholder.com/600x400?text=V1+Image+3';">
-                                <div class="image-caption">Base Form - Example 3</div>
+                                <div class="image-caption"> Example 3</div>
                                 
                                 <img src="https://i.ibb.co/RnQJT8v/IMG-20260309-004722.jpg" alt="Verb Form V1 - Base Form 4" onerror="this.onerror=null; this.src='https://via.placeholder.com/600x400?text=V1+Image+4';">
-                                <div class="image-caption">Base Form - Example 4</div>
+                                <div class="image-caption"> Example 4</div>
                                 
                                 <img src="https://i.ibb.co/whZNR6RG/IMG-20260309-005234.jpg" alt="Verb Form V1 - Base Form 5" onerror="this.onerror=null; this.src='https://via.placeholder.com/600x400?text=V1+Image+5';">
-                                <div class="image-caption">Base Form - Example 5</div>
+                                <div class="image-caption"> Example 5</div>
                                 
                                 <img src="https://i.ibb.co/DjgNTyp/IMG-20260309-005444.jpg" alt="Verb Form V1 - Base Form 6" onerror="this.onerror=null; this.src='https://via.placeholder.com/600x400?text=V1+Image+6';">
-                                <div class="image-caption">Base Form - Example 6</div>
+                                <div class="image-caption"> Example 6</div>
                                 
                                 <img src="https://i.ibb.co/5X4MZc20/IMG-20260309-005707.jpg" alt="Verb Form V1 - Base Form 7" onerror="this.onerror=null; this.src='https://via.placeholder.com/600x400?text=V1+Image+7';">
-                                <div class="image-caption">Base Form - Example 7</div>
+                                <div class="image-caption"> Example 7</div>
                                 
                                 <img src="https://i.ibb.co/1GjZfHvR/IMG-20260309-005938.jpg" alt="Verb Form V1 - Base Form 8" onerror="this.onerror=null; this.src='https://via.placeholder.com/600x400?text=V1+Image+8';">
-                                <div class="image-caption">Base Form - Example 8</div>
+                                <div class="image-caption"> Example 8</div>
                                 
                                 <img src="https://i.ibb.co/Wp3N3p9P/IMG-20260309-010345.jpg" alt="Verb Form V1 - Base Form 9" onerror="this.onerror=null; this.src='https://via.placeholder.com/600x400?text=V1+Image+9';">
-                                <div class="image-caption">Base Form - Example 9</div>
+                                <div class="image-caption"> Example 9</div>
                             </div>
                         </div>
 
                         <!-- V2 Section -->
                         <div class="verb-form-card">
-                            <h3>📸 V2 - Past Simple (အတိတ်)</h3>
+                            <h3>📸 V2 </h3>
                             <div class="verb-images">
                                 <img src="https://i.ibb.co/F4KjswmW/IMG-20260308-200309.jpg" alt="Verb Form V2 - Past Simple 1" onerror="this.onerror=null; this.src='https://via.placeholder.com/600x400?text=V2+Image+1';">
-                                <div class="image-caption">Past Simple - Example 1</div>
+                                <div class="image-caption"> Example 1</div>
                                 
                                 <img src="https://i.ibb.co/d4RCf2wB/IMG-20260308-200338.jpg" alt="Verb Form V2 - Past Simple 2" onerror="this.onerror=null; this.src='https://via.placeholder.com/600x400?text=V2+Image+2';">
-                                <div class="image-caption">Past Simple - Example 2</div>
+                                <div class="image-caption"> Example 2</div>
                                 
                                 <img src="https://i.ibb.co/9Hk168JS/IMG-20260308-200411.jpg" alt="Verb Form V2 - Past Simple 3" onerror="this.onerror=null; this.src='https://via.placeholder.com/600x400?text=V2+Image+3';">
-                                <div class="image-caption">Past Simple - Example 3</div>
+                                <div class="image-caption"> Example 3</div>
                                 
                                 <img src="https://i.ibb.co/G47L71F0/IMG-20260308-200440.jpg" alt="Verb Form V2 - Past Simple 4" onerror="this.onerror=null; this.src='https://via.placeholder.com/600x400?text=V2+Image+4';">
-                                <div class="image-caption">Past Simple - Example 4</div>
+                                <div class="image-caption"> Example 4</div>
                                 
                                 <img src="https://i.ibb.co/XxMp029F/IMG-20260308-200505.jpg" alt="Verb Form V2 - Past Simple 5" onerror="this.onerror=null; this.src='https://via.placeholder.com/600x400?text=V2+Image+5';">
-                                <div class="image-caption">Past Simple - Example 5</div>
+                                <div class="image-caption"> Example 5</div>
                                 
                                 <img src="https://i.ibb.co/yBc3Qhvd/IMG-20260308-200541.jpg" alt="Verb Form V2 - Past Simple 6" onerror="this.onerror=null; this.src='https://via.placeholder.com/600x400?text=V2+Image+6';">
-                                <div class="image-caption">Past Simple - Example 6</div>
+                                <div class="image-caption"> Example 6</div>
                                 
                                 <img src="https://i.ibb.co/DP0fNy4m/IMG-20260308-200617.jpg" alt="Verb Form V2 - Past Simple 7" onerror="this.onerror=null; this.src='https://via.placeholder.com/600x400?text=V2+Image+7';">
-                                <div class="image-caption">Past Simple - Example 7</div>
+                                <div class="image-caption"> Example 7</div>
                                 
                                 <img src="https://i.ibb.co/VcvXMgxV/IMG-20260308-200643.jpg" alt="Verb Form V2 - Past Simple 8" onerror="this.onerror=null; this.src='https://via.placeholder.com/600x400?text=V2+Image+8';">
-                                <div class="image-caption">Past Simple - Example 8</div>
+                                <div class="image-caption"> Example 8</div>
                                 
                                 <img src="https://i.ibb.co/F4drh7JY/IMG-20260308-200705.jpg" alt="Verb Form V2 - Past Simple 9" onerror="this.onerror=null; this.src='https://via.placeholder.com/600x400?text=V2+Image+9';">
-                                <div class="image-caption">Past Simple - Example 9</div>
+                                <div class="image-caption"> Example 9</div>
                                 
                                 <img src="https://i.ibb.co/wNb7RCDC/IMG-20260308-200736.jpg" alt="Verb Form V2 - Past Simple 10" onerror="this.onerror=null; this.src='https://via.placeholder.com/600x400?text=V2+Image+10';">
-                                <div class="image-caption">Past Simple - Example 10</div>
+                                <div class="image-caption"> Example 10</div>
                                 
                                 <img src="https://i.ibb.co/MkqbnFyw/IMG-20260308-200808.jpg" alt="Verb Form V2 - Past Simple 11" onerror="this.onerror=null; this.src='https://via.placeholder.com/600x400?text=V2+Image+11';">
-                                <div class="image-caption">Past Simple - Example 11</div>
+                                <div class="image-caption"> Example 11</div>
                             </div>
                         </div>
                     </div>
@@ -351,71 +316,25 @@
         };
 
         // ---------- Main Functionality ----------
-        let currentPage = 'mainMenu';
-
         function showVerbForms() {
             const contentArea = document.getElementById('contentArea');
             const navigationArea = document.getElementById('navigationArea');
             
             const verbPage = verbFormsData['verbForms'];
             if (verbPage) {
-                contentArea.classList.add('loading');
-                setTimeout(() => {
-                    contentArea.innerHTML = `<h2>${verbPage.title}</h2>${verbPage.content}`;
-                    contentArea.classList.remove('loading');
-                    
-                    // Create navigation buttons
-                    let navHtml = '';
-                    
-                    // Back to Main button
-                    navHtml += `<div class="back-controls">`;
-                    navHtml += `<button class="btn-back" onclick="goBackToMain()">🏠 Back to Main</button>`;
-                    navHtml += `</div>`;
-                    
-                    navigationArea.innerHTML = `<div class="nav-buttons">${navHtml}</div>`;
-                    
-                    // Scroll to top smoothly
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
-                }, 250);
+                contentArea.innerHTML = `<h2>${verbPage.title}</h2>${verbPage.content}`;
+                
+                // Create Back to Top button only
+                navigationArea.innerHTML = `
+                    <div class="nav-buttons">
+                        <button class="btn-back" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">⬆️ Back to Top</button>
+                    </div>
+                `;
             }
         }
 
-        function goBackToMain() {
-            const contentArea = document.getElementById('contentArea');
-            const navigationArea = document.getElementById('navigationArea');
-            
-            // Clear content and navigation
-            contentArea.innerHTML = '';
-            navigationArea.innerHTML = '';
-            
-            // Show main button again
-            const mainBtn = document.querySelector('.btn-verb-main');
-            if (mainBtn) {
-                mainBtn.style.display = 'block';
-            }
-            
-            // Scroll to top
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        }
-
-        // Initial setup on page load
-        document.addEventListener('DOMContentLoaded', () => {
-            const contentArea = document.getElementById('contentArea');
-            const navigationArea = document.getElementById('navigationArea');
-            
-            // Clear any existing content
-            contentArea.innerHTML = '';
-            navigationArea.innerHTML = '';
-            
-            // Optional: Show welcome message or instructions
-            contentArea.innerHTML = `
-                <div style="text-align: center; padding: 40px 20px; background: linear-gradient(145deg, #f8f9fa, #ffffff); border-radius: 24px; margin: 20px 0;">
-                    <h3 style="color: #9b59b6;">Welcome to Verb Forms Learning!</h3>
-                    <p style="font-size: 1.1rem; margin: 20px 0;">Click the button above to view all verb forms with examples.</p>
-                    <p style="font-size: 0.95rem; color: #666;">V1 (Base Form) • V2 (Past Simple) • V3 (Past Participle) • Ving (Present Participle)</p>
-                </div>
-            `;
-        });
+        // Show verb forms immediately when page loads
+        document.addEventListener('DOMContentLoaded', showVerbForms);
     </script>
 </body>
 </html>
